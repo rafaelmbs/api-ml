@@ -1,6 +1,6 @@
 const config = {
     api_url: "https://api.mercadolibre.com/",
-    country_code: "MLB",
+    country_code: "MLA",
     port: 3000
 };
 

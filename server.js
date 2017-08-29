@@ -13,8 +13,8 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/api/', index);
-app.use('/api/items', items);
+app.use('/', index);
+app.use('/items', items);
 
 let server = module.exports = app;
 
